@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT Auth Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JWT Authentication</h1>
+    <a href="/register">Register</a> | <a href="/login">Login</a>
+    <div>
+        <h2>Protected</h2>
+        <button onclick="getProtected()">Get Protected Data</button>
+        <p id="protected-msg"></p>
+        <button onclick="logout()">Logout</button>
+        <p id="logout-msg"></p>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
